@@ -102,7 +102,7 @@
 &kp LG(S)      &kp LS(LG(N5))     &kp LS(LG(NUMBER_4))  &trans         &trans         &trans    &trans  &trans                                                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         SCROLL {
