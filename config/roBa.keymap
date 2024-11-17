@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                 &kp LC(LEFT)        &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp LEFT_PARENTHESIS  &bt BT_NXT
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp LG(LEFT_ARROW)  &mkp LCLK            &kp UP_ARROW      &mkp RCLK             &bt BT_PRV
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                  &trans          &kp LG(RIGHT)       &kp LEFT_ARROW       &kp DOWN          &kp RIGHT             &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                     &trans          &trans                                                                           &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp INT_YEN                                                      &kp LC(LEFT)        &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp LEFT_PARENTHESIS  &bt BT_NXT
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp NON_US_BACKSLASH  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp LG(LEFT_ARROW)  &mkp LCLK            &kp UP_ARROW      &mkp RCLK             &bt BT_PRV
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD            &kp EQUAL                  &trans          &kp LG(RIGHT)       &kp LEFT_ARROW       &kp DOWN          &kp RIGHT             &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans                &trans                     &trans          &trans                                                                           &kp PIPE
             >;
         };
 
