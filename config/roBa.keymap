@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp W             &kp E         &kp R                 &kp T                                           &kp Y        &kp U  &lt 4 I    &kp O    &kp P
-&kp A         &kp S             &kp D         &kp F                 &kp G        &kp SCROLLLOCK    &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp SEMI
-&kp Z         &kp X             &kp C         &kp V                 &kp B        &bt BT_NXT        &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &lt 2 SPACE  &lt 3 LANG1       &lt 2 BACKSPACE  &lt 1 ENTER                             &lt 5 UNDERSCORE
+&kp Q         &kp W             &kp E         &kp R                 &kp T                                        &kp Y        &kp U  &lt 4 I    &kp O    &kp P
+&kp A         &kp S             &kp D         &kp F                 &kp G        &mkp MCLK      &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp SEMI
+&kp Z         &kp X             &kp C         &kp V                 &kp B        &bt BT_NXT     &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &lt 2 SPACE  &lt 3 LANG1    &lt 2 BACKSPACE  &lt 1 ENTER                             &lt 5 UNDERSCORE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -96,10 +96,10 @@
 
         ARROW {
             bindings = <
-&kp LG(Z)      &kp LS(LG(Z))      &kp LS(LG(R))         &kp LG(W)      &kp LG(Q)                        &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LS(LG(UP_ARROW))  &trans  &trans
-&kp LG(A)      &kp LG(D)          &kp LG(X)             &kp LG(C)      &kp LG(V)      &trans    &trans  &kp LG(LC(F))     &trans             &kp LC(LA(ENTER))     &trans  &trans
-&kp LS(LG(V))  &kp LS(LC(SLASH))  &kp LG(SLASH)         &kp LS(LG(V))  &kp LS(LG(C))  &trans    &trans  &kp LC(LA(D))     &kp LC(LA(F))      &kp LC(LA(G))         &trans  &trans
-&kp LG(S)      &kp LS(LG(N5))     &kp LS(LG(NUMBER_4))  &trans         &trans         &trans    &trans  &trans                                                             &trans
+&kp LG(Z)      &kp LS(LG(Z))      &kp LS(LG(R))         &kp LG(W)      &kp LG(Q)                           &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LS(LG(UP_ARROW))  &trans  &trans
+&kp LG(A)      &kp LG(D)          &kp LG(X)             &kp LG(C)      &kp LG(V)      &trans       &trans  &kp LG(LC(F))     &trans             &kp LC(LA(ENTER))     &trans  &trans
+&kp LS(LG(V))  &kp LS(LC(SLASH))  &kp LG(SLASH)         &kp LS(LG(V))  &kp LS(LG(C))  &kp LC(F)    &trans  &kp LC(LA(D))     &kp LC(LA(F))      &kp LC(LA(G))         &trans  &trans
+&kp LG(S)      &kp LS(LG(N5))     &kp LS(LG(NUMBER_4))  &trans         &trans         &trans       &trans  &trans                                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
