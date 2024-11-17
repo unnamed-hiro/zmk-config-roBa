@@ -68,8 +68,8 @@
         default_layer {
             bindings = <
 &kp Q          &kp W             &kp E             &kp R                               &kp T                                            &kp Y        &kp U  &lt 4 I    &kp O    &kp P
-&kp A          &kp S             &kp D             &kp F                               &kp G        &bt BT_NXT         &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp SEMI
-&kp Z          &kp X             &kp C             &kp V                               &kp B        &bt BT_SEL 1       &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp A          &kp S             &kp D             &kp F                               &kp G        &mkp MCLK          &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp SEMI
+&kp Z          &kp X             &kp C             &kp V                               &kp B        &bt BT_NXT         &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LG(LCTRL)  &kp LA(LEFT_WIN)  &kp LC(LEFT_ALT)  &mt LEFT_SHIFT LANG_ZENKAKUHANKAKU  &lt 1 SPACE  &lt 0 LA(LANG4)    &lt 2 BACKSPACE  &lt 1 ENTER                             &kp LOCKING_SCROLL
             >;
 
