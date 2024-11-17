@@ -70,7 +70,7 @@
 &kp Q          &kp W             &kp E             &kp R                 &kp T                                           &kp Y        &kp U  &lt 4 I    &kp O    &kp P
 &kp A          &kp S             &kp D             &kp F                 &kp G        &kp SCROLLLOCK    &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp SEMI
 &kp Z          &kp X             &kp C             &kp V                 &kp B        &bt BT_NXT        &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LG(LCTRL)  &kp LA(LEFT_WIN)  &kp LC(LEFT_ALT)  &mt LEFT_SHIFT LANG2  &lt 1 SPACE  &lt 3 LANG1       &lt 2 BACKSPACE  &lt 1 ENTER                             &kp LOCKING_SCROLL
+&kp LG(LCTRL)  &kp LA(LEFT_WIN)  &kp LC(LEFT_ALT)  &mt LEFT_SHIFT LANG2  &lt 2 SPACE  &lt 3 LANG1       &lt 2 BACKSPACE  &lt 1 ENTER                             &kp LOCKING_SCROLL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
