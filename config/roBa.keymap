@@ -68,7 +68,7 @@
         default_layer {
             bindings = <
 &kp Q          &kp W             &kp E             &kp R                               &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A          &kp S             &kp D             &kp F                               &kp G        &bt BT_SEL 1                       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMI
+&kp A          &kp S             &kp D             &kp F                               &kp G        &bt BT_NXT                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMI
 &kp Z          &kp X             &kp C             &kp V                               &kp B        &bt BT_SEL 1                       &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LG(LCTRL)  &kp LA(LEFT_WIN)  &kp LC(LEFT_ALT)  &mt LEFT_SHIFT LANG_ZENKAKUHANKAKU  &lt 4 SPACE  &lt_to_layer_0 4 LA(LANGUAGE_5)    &kp BACKSPACE  &lt 1 ENTER                             &kp LOCKING_SCROLL
             >;
@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &kp F12
+&trans  &trans  &trans  &kp KP_NUMBER_9  &kp SLASH                    &kp AMPERSAND          &kp PIPE         &kp SINGLE_QUOTE   &kp MINUS        &kp EQUAL
+&trans  &trans  &trans  &kp KP_NUMBER_6  &kp PLUS   &trans    &trans  &kp LEFT_PARENTHESIS   &kp DOLLAR       &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_BRACKET
+&trans  &trans  &trans  &trans           &kp MINUS  &trans    &trans  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp CARET          &kp RIGHT_BRACE  &kp RIGHT_BRACKET
+&trans  &trans  &trans  &trans           &kp SPACE  &trans    &trans  &trans                                                                      &kp UNDERSCORE
             >;
         };
 
