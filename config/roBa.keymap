@@ -87,10 +87,10 @@
 
         MOUSE {
             bindings = <
-&kp ESCAPE  &trans  &kp LS(LG(R))  &kp COLON       &kp LA(APOSTROPHE)                                             &kp LC(LEFT)        &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp LEFT_PARENTHESIS  &bt BT_NXT
-&kp TAB     &trans  &trans         &trans          &kp BACKSLASH       &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp LG(LEFT_ARROW)  &mkp LCLK            &kp UP_ARROW      &mkp RCLK             &bt BT_PRV
-&kp GRAVE   &trans  &trans         &trans          &kp AT              &kp EQUAL                  &trans          &kp LG(RIGHT)       &kp LEFT_ARROW       &kp DOWN_ARROW    &kp RIGHT_ARROW       &kp BACKSLASH
-&trans      &trans  &kp LEFT_ALT   &kp LEFT_SHIFT  &trans              &trans                     &trans          &trans                                                                           &kp LEFT_SHIFT
+&kp ESCAPE  &trans  &kp LS(LG(R))  &kp COLON       &kp BACKSLASH                                             &kp LC(LEFT)        &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp LEFT_PARENTHESIS  &bt BT_NXT
+&kp TAB     &trans  &trans         &trans          &kp BACKSLASH  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp LG(LEFT_ARROW)  &mkp LCLK            &kp UP_ARROW      &mkp RCLK             &bt BT_PRV
+&kp GRAVE   &trans  &trans         &trans          &kp AT         &kp EQUAL                  &trans          &kp LG(RIGHT)       &kp LEFT_ARROW       &kp DOWN_ARROW    &kp RIGHT_ARROW       &kp BACKSLASH
+&trans      &trans  &kp LEFT_ALT   &kp LEFT_SHIFT  &trans         &trans                     &trans          &trans                                                                           &kp LEFT_SHIFT
             >;
         };
 
