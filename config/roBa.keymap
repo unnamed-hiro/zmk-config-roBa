@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp W             &kp E         &kp R                 &kp T                                            &kp Y        &kp U  &lt 4 I    &kp O    &kp P
-&kp A         &kp S             &kp D         &kp F                 &kp G        &mkp MCLK      &kp LG(LEFT_ARROW)   &kp H        &kp J  &kp K      &kp L    &kp SEMI
-&kp Z         &kp X             &kp C         &kp V                 &kp B        &trans         &kp LG(RIGHT_ARROW)  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &lt 2 SPACE  &lt 3 LANG1    &lt 2 BACKSPACE      &lt 1 ENTER                             &lt 5 UNDERSCORE
+&kp Q         &kp W             &kp E         &kp R                 &kp T                                                   &kp Y        &kp U  &lt 4 I    &kp O    &kp P
+&kp A         &kp S             &kp D         &kp F                 &kp G        &mkp MCLK             &lt 4 A              &kp H        &kp J  &kp K      &kp L    &kp SEMI
+&kp Z         &kp X             &kp C         &kp V                 &kp B        &kp LG(LEFT_ARROW)    &kp LG(RIGHT_ARROW)  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &lt 2 SPACE  &lt 3 LANG1           &lt 2 BACKSPACE      &lt 1 ENTER                             &lt 5 UNDERSCORE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -105,10 +105,10 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        SCROLL {
+        Bluetooth {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &bt BT_NXT
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &bt BT_PRV
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
@@ -118,8 +118,8 @@
             bindings = <
 &trans  &trans        &trans        &trans        &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans    &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans  &trans    &trans       &trans                                                  &trans
             >;
         };
     };
