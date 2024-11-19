@@ -85,7 +85,7 @@
             >;
         };
 
-        MOUSE {
+        ARROW {
             bindings = <
 &kp ESCAPE  &trans  &kp LS(LG(R))  &kp COLON       &kp BACKSLASH                                             &kp LC(LEFT)        &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp LEFT_PARENTHESIS  &kp SLASH
 &kp TAB     &trans  &trans         &trans          &kp BACKSLASH  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp LG(LEFT_ARROW)  &mkp LCLK            &kp UP_ARROW      &mkp RCLK             &kp GRAVE
@@ -94,7 +94,7 @@
             >;
         };
 
-        ARROW {
+        COMMAND {
             bindings = <
 &kp LG(Z)      &kp LS(LG(Z))      &kp LS(LG(R))         &kp LG(W)      &kp LG(Q)                           &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LS(LG(UP_ARROW))  &trans  &trans
 &kp LG(A)      &kp LG(D)          &kp LG(X)             &kp LG(C)      &kp LG(V)      &trans       &trans  &kp LG(LC(F))     &trans             &kp LC(LA(ENTER))     &trans  &trans
